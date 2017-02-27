@@ -1,0 +1,87 @@
+/*
+StacyAustin 
+ITEC325
+Fall2015
+URL - https://php.radford.edu/~saustin4/itec325/hw04/form.css
+DESCRIPTION - external css for "Okaymon" database site
+SOURCES & CREDITS -  Dr. Barland, w3schools.com, php.net, stackoverflow.com,
+                     PHP for The Web by Larry Ullman
+*/
+body {
+	background-color: #e3e3e3;
+	background-image: url("backg.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #173e43;
+	font-family: arial, verdana, sans-serif;
+	font-size: 12pt;
+	margin: 50px 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+h1, h2 {
+	background-color: #e3e3e3;
+	border: 1px solid black;
+	width: auto;
+}
+
+.divNoBorder {
+	border: 0px solid black;
+	width: auto;
+}
+
+fieldset {
+	background-color: #9ad3de;
+	border: 2px solid black;
+	color: #173e43;
+	display: inline-block;
+	font-size: 18px;
+	line-height: 1.8;
+	margin: auto;
+	padding: 11px;
+	text-align: center;
+	width: 600px;
+}
+
+.fieldset-auto-width {
+	display: inline-block;
+	text-align: center;
+	width: auto;
+}
+
+input, select, textarea, th {
+	border: 2px solid black;
+	max-width: 100%
+}
+
+span, table, ul {
+	background-color: #e3e3e3;
+	border: 1px solid black;
+	display: inline-block;
+	text-align: center;
+}
+
+td {
+	border: 1px solid black;
+	text-align: center;
+}
+
+.tableheader {
+	background-color: #95BEE6;
+	color: white;
+	font-weight: bold;
+}
+
+.tablerow {
+	background-color: #A7D6F1;
+	color: white;
+}
+
+.message {
+	color: #FF0000;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+}
